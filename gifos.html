@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css" id="sailor">
+    <link rel="stylesheet" href="estilos.css" id="switch">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <title>Gifos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hea">
+            <p>¡Bienvenidos/as a Guifos.com!------Donde los gifs están//////Numero de visitas:12.765.803</p>
+        </div>
+    </header>
+    <div class="centrar">
+        <section class="menu">
+            <nav class="banner">
+                <img class="part1" src="./img/gifOF_logo.png" alt="logo">
+                <div class="parte2">
+                    <button class="boton" href="#" onclick="Mostrar_Ocultar()"><p>Crear Gifos</p></button>
+                    <nav class="navegacion">
+                        <ul class="menu">
+                            <li><a class="botones" href="#"><p>Elegir Tema</p></a></li>
+                            <li><a id="botoncito" class="botoncito"><img src="./img/dropdown.svg" alt="triangulo"></a>
+                                <ul id="grey" class="grey">
+                                    <li><a href="#"onclick="dia()"><p>Sailor Day</p></a></li>
+                                    <li><a href="#"onclick="noche()"><p>Sailor Night</p></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="gips">Mis Gifos</button>
+                    <div class="rayita"></div>
+                    <div></div>
+                </div>
+            </nav>
+        </section>
+        <section class="buscador">
+            <div class="buscar1">
+                <p>Buscar</p>
+            </div>
+            <form id="gif-form" class="buscar2">
+                <input class="busqueda" type="text" id="busqueda" onkeyup="nav_bar()" placeholder="Busca gifs, hashtags, temas, busca lo quieras...">
+                <div class="lupa">
+                    <img id="lupa" src="./img/Combined Shape.svg" alt="">
+                    <input type="submit" value="Buscar" class="lupita">
+                </div>
+            </form>
+            <div class="div"></div>
+        </section>
+        <div class="opcionales" id="opcionales">
+            <div class="opc">
+                <button class="opciones" id="primero"><p>Perritos</p></button>
+                <button class="opciones" id="segundo"><p>Gatitos</p></button>
+                <button class="opciones" id="tercero"><p>Niños</p></button>
+            </div>       
+        </div>
+        <div class="results"></div>
+        <section class="sugerencias"><p>Hoy te sugerimos:</p></section>
+        <section id="randomGif">
+        </section>
+        <section class="tendencias"><p>Tendencias:</p></section>
+        <div class="gif">
+        </div>
+        <section class="pestaña2" id="pestaña">
+            <div class="volver">
+                <img  id="flecha" src="./img/arrow.svg" onclick="Mostrar_Ocultar()" alt="flecha">
+                <img id="log2" src="./img/gifOF_logo.png" alt="logo">
+            </div>
+            <div class="creatividad" id="creatividad">
+                <div class="encabezado">
+                    <p>Crear Guifos</p>
+                    <img id="close" src="./img/button close.svg" alt="close">
+                </div>
+                <div class="primero">
+                    <img src="./img/window img.png" alt="ventana">
+                    <p>Aqui podras crear tus propios guifos</p>
+                </div>
+                <div class="title">
+                    <p class="crear">Crear tu <span style="font-weight: bold; font-style: italic;">guifo</span> es muy facil, graba cualquier imagen con tu camara y 
+                        obten guifos personalizados.Los pasos para crear tu gifo son:</p>
+                    <p class="uno"><span style="font-weight:bold">1) </span>Dar permisos de acceso a la camara (solo por el tiempod el uso)</p>
+                    <p class="dos"><span style="font-weight:bold">2) </span>Capturar tu momento guifo</p>
+                    <p class="tres"><span style="font-weight:bold">3) </span>Revisar el momento</p>
+                    <p class="cuatro"><span style="font-weight:bold">4) </span>Listo para subir y compartir</p>
+                    <p class="pregunta">¿Quieres comenzar a crear tu <span style="font-weight:bold">guifo</span> ahora?</p>
+                </div>
+                <div class="opcion">
+                    <button class="bot1" onclick="Mostrar_Ocultar()">Cancelar</button>
+                    <button class="bot2" onclick="Chequeo_NoChequeo()">Comenzar</button>
+                </div>   
+            </div>
+            <div class="chequeo" id="chequeo">
+                <div class="ban">
+                    <p>Un chequeo antes de empezar</p>
+                    <img src="./img/button close.svg" alt="close3">
+                </div>
+                <div class="check"></div>
+                <div class="boton1">
+                    <button class="camarita"><img src="./img/camera.svg" alt="camara"></button>
+                    <button class="captura">Capturar</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="funcionalidades.js"></script>  
+</body>
+</html>

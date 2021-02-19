@@ -1,0 +1,172 @@
+
+body {
+    background-color: rgb(19, 0, 70);
+}
+/*Parte del header*/
+.hea{
+    background-image: linear-gradient(to left, #EE3EFE, #2E32FB);
+    border-bottom: 1px solid black;
+    color: white;
+}
+/*Fin header*/
+/*Parte del menu*/
+.boton{
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: white;
+    border: 1px solid black;
+}
+.botoncito{
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color: white;
+    border: 1px solid black;
+}
+/*Switch*/
+.grey{
+    background-color: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+.day{
+    background-color: #CCCCCC;
+    color: #110038;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+.day:active{
+    background-color: #2E32FB;
+    color: #FFFFFF;
+}
+.night{
+    color: #110038;
+    background-color: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+.night:active{
+    background-color: #2E32FB;
+    color: #FFFFFF;
+}
+.textboton{
+    color: white;
+}
+.rayita{
+    background-color: white;
+}
+/*Fin del menu*/
+/*Buscador*/
+.buscador {
+    border-top: 2px solid white;
+    background-color: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+.buscar1 {
+    color: white;
+    background-image: linear-gradient(to left, #EE3EFE, #2E32FB);
+    border-left: 2px solid white;
+    border-right: 2px solid #B4B4B4;
+}
+.buscar2 {
+    background-color: #B4B4B4;
+    border-left: 2px solid white;
+    border-right: 2px solid #B4B4B4;
+    border-bottom: 2px solid #B4B4B4;
+}
+.busqueda {
+    color: #B4B4B4;
+    background-color: white;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.lupa {
+    background: #B4B4B4;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+#lupa {
+    color: #8F8F8F;
+}
+.lupita {
+    color: #8F8F8F;
+}
+/*Fin de buscador*/
+/*Surgerencias*/
+.sugerencias {
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+.sugerencias p {
+    color: #110038;
+}
+/*Fin de Surgerencias*/
+/*Galerias*/
+.orden{
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+.orden2{
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+.titular{
+    background-image: linear-gradient(to left, #EE3EFE, #2E32FB);
+}
+.titulo{
+    color: #ffffff;
+}
+.gifs:hover{
+    border: 1px dotted #110038;
+}
+.cuadrito{
+    width: 81px;
+    height: 34px;
+    background-color: #2629CC;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF;
+}
+.ver:hover{
+    border: 1px dotted #110038;
+}
+.cuadrito:hover{
+    background-color: #2629CC;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF;
+}
+/*Fin de Galerias*/
+/*Tendencias*/
+.tendencias {
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+.tendencias p {
+    color: #110038;
+}
+/*Fin de Tendencias*/
+/*Gif de Tendencias*/
+.tendencia0{
+    border: 1px dotted #110038;
+}
+.hashtags:hover{
+    color: #FFFFFF;
+    border-bottom: 1px dotted #110038;
+    border-left: 1px dotted #110038;
+    border-right: 1px dotted #110038;
+    background-image: linear-gradient(to left, #EE3EFE, #2E32FB);
+}
+
+.hashtags p:hover{
+    color: #FFFFFF;
+}
+.encuadre:hover{
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF
+}
+/*Fin de Tendencias*/
+
+
+

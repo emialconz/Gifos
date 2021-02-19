@@ -1,0 +1,592 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+/*Parte del header*/
+.header {
+    display: flex;
+    align-items: center;
+}
+.hea{
+    width: 99.9%;
+    height: 23px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 12px;
+    margin-left: 8px;
+}
+/*Fin header*/
+/*PARTE DE CENTRAR*/
+.centrar{
+    justify-content: center;
+    margin-left: 91px;
+    margin-right: 91px;
+}
+/*FIN DE CENTRAR*/
+/*Parte del menu*/
+.banner{
+    width: 1194px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 36px;
+}
+.part1{
+    width: 102.6px;
+    height: 64px;
+}
+.navegacion {
+    width: 180px;
+    height: 36px;
+    margin-left: 16px;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu{
+    height: 36px;
+    margin-top: -15px;
+}
+.menu > li{
+    display: inline-block;
+    position: relative;
+}
+.menu > li > a {
+    text-decoration: none;
+}
+.grey{
+    width: 183px;
+    height: 102px;
+    margin-left: -120px;
+    margin-top: 12px;
+    position: absolute;
+    display: none;
+}
+.grey li a{
+    width: 160px;
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 16px;
+    display: block;
+    flex-direction: column;
+    text-decoration: none;
+}
+.grey li a p{
+    margin-left: 40px;
+    margin-top: 6px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+}
+.menu li:hover .grey{
+    display: block;
+}
+.parte2{
+    width: 419.5px;
+    padding-right: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.boton{
+    width: 144px;
+    height: 36px;
+}
+.botoncito{
+    width: 36px;
+    height: 36px;
+    margin-top: -23px;
+    margin-left: 27px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botones{
+    width: 131px;
+    height: 16px;
+    margin-left: -40px;
+}
+.boton p{
+    font-size: 16px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.botones p{
+    margin-left: 30px;
+    font-size: 16px;
+}
+/*Fin de Switch*/
+.gips{
+    background-color: transparent;
+    border: none;
+    font-family: 'Chakra Petch', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 350px;
+    width: 76px;
+}
+.rayita{
+    width: 8px;
+    height: 0.2px;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+/*¨Fin parte del menu*/
+/*Buscador*/
+.buscador {
+    width: 1200px;
+    height: 99px;
+    margin-top: 38px;
+}
+.buscar1 {
+    width: 1200px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.buscar2 {
+    width: 1200px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.busqueda {
+    width: 1057px;
+    height: 48px;
+    padding-left: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 16px
+}
+
+.lupa {
+    width: 102px;
+    height: 36px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+#lupa {
+    margin: 10px;
+}
+.lupita {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
+.opcionales{
+    width: 1200px;
+    height: 160px;
+    display: none;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.opc{
+    margin-top: 17px;
+    position: absolute;
+}
+#segundo{
+    margin-top: 11px;
+}
+#tercero{
+    margin-top: 11px;
+}
+.opciones{
+    width: 1057px;
+    height: 34px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    color: #110038;
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+.opciones p{
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    margin-left: 16px;
+    line-height: 22px;
+}
+.opciones:hover{
+    border: 1.3px dotted #110038;
+}
+/*opciones*/
+/*Fin de buscador*/
+/*Surgerencias*/
+.sugerencias {
+    width: 1200px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+.sugerencias p {
+    font-size: 14px;
+}
+/*Fin de Surgerencias*/
+/*Galerias*/
+#randomGif{
+    display: flex;
+    justify-content: center;
+}
+/* .galerias{
+    display: flex;
+    flex-direction: row;
+}
+.orden{
+    width: 288px;
+    height: 313px;
+    margin-top: 16px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-right: 2px;
+
+}
+.orden2{
+    width: 288px;
+    height: 313px;
+    margin-top: 16px;
+    margin-left: 14px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-right: 2px;
+
+}
+.centrar2{
+    margin-bottom: 5px;
+}
+.titular{
+    width: 280px;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to left, #EE3EFE, #2E32FB);
+}
+.titulo{
+    font-size: 14;
+    width: 100px;
+    margin-left: 3px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+.cruz{
+    margin-left: 157px;
+}
+.gifos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gifs{
+    width: 280px;
+    height: 280px;
+    margin-top: 2px;
+}
+.gifs:hover{
+    width: 280px;
+    height: 280px;
+}
+.cuadrito{
+    width: 81px;
+    height: 34px;
+    background-color: transparent; 
+    margin-top: -50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}*/
+.ver:hover{
+    width: 75px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+.cuadrito:hover{
+    width: 81px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+} */
+/*Fin de Galerias*/
+/*Tendencias*/
+.tendencias {
+    width: 1200px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+.tendencias p {
+    font-size: 14px;
+}
+/*Fin de Tendencias*/
+/*Gif de Tendencias*/
+.gif{
+    margin-left: 13%;
+}
+/* .linea1{
+    display: flex;
+    flex-direction: row;
+}
+.tendencia0{
+    width: 288px;
+    height: 298px;
+}
+.hashtags p{
+    color: transparent;
+}
+.hashtags:hover{
+    margin-top: -24.5px;
+    width: 98%;
+    height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.hashtags p:hover{
+    display: flex;
+    align-items: center;
+}
+.encuadre{
+    display: flex;
+    flex-direction: column;
+}
+.encuadre:hover{
+    width: 316px;
+    height: 304px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tendencia{
+    width: 288px;
+    height: 298px;
+    margin-left: 16px;
+}
+.linea2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;    
+}
+.giphy{
+    width: 410px;
+    height: 298px;
+    margin-left: 16px;
+}
+.linea3{
+    display: flex;
+    flex-direction: row;    
+}
+.gip{
+    margin-top: 16px;
+}
+.gip1{
+    height: 298px;
+    width: 350px;
+    margin-left: 16px;
+    margin-top: 16px;
+} */
+/*Fin de Tendencias*/
+/*Pestaña2*/
+.pestaña2{
+    width: 1000%;
+    height: 1750px;
+    margin-left: -91px;
+    display: none;
+    position: relative;
+    margin-top: -1710px;
+    z-index: 1;
+    background-color: rgb(251, 242, 242);
+}
+/*Volver*/
+#flecha{
+    margin-top: 55px;
+    margin-left: 60px;
+}
+#log2{
+    margin-left: 7px;
+}
+/*Fin Volver*/
+/*creatividad*/
+.creatividad{
+    width: 684px;
+    height: 386px;
+    margin-top: 75px;
+    margin-left: 378px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.encabezado{
+    width: 678px;
+    height: 24px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+.encabezado p{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 4px;
+    font-weight: bold;
+}
+#close{
+    margin-left: 575px;
+}
+.primero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.primero p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+    color: #110038;
+}
+.title{
+    margin-left: 73px;
+}
+.crear{
+    width: 518px;
+}
+.uno{
+    margin-top: 10px;
+}
+.dos{
+    margin-top: 10px;
+}
+.tres{
+    margin-top: 10px;
+}
+.cuatro{
+    margin-top: 10px;
+}
+.pregunta{
+    margin-top: 10px;
+}
+.opcion{
+    height: 36px;
+    margin-top: 48px;
+    margin-left: 344px;
+}
+.bot1{
+    width: 144px;
+    height: 36px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+.bot2{
+    width: 144px;
+    height: 36px;
+    margin-left: 16px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+/*creatividad*/
+/*Un Chequeo*/
+.chequeo{
+    width: 860px;
+    height: 548px;
+    margin-top: 100px;
+    margin-left: 265px;
+    display: none;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.ban{
+    width: 854px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+.ban img{
+    margin-left: 638px;
+}
+.ban p{
+    height: 24px;
+    position: relative;
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.check{
+    width: 832px;
+    height: 434px;
+    margin-top: 11px;
+    margin-left: 12px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+.boton1{
+    width: 180px;
+    margin-top: 24px;
+    margin-left: 663px;
+    display: flex;
+    flex-direction: row;
+}
+.camarita{
+    width: 36px;
+    height: 36px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+.captura{
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+} 
+.camarita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #110038;
+}
+/*Fin de un Chequeo*/
+/*Fin Pestaña2*/
