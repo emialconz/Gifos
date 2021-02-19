@@ -49,7 +49,7 @@ function showGiphs(dataArray) {
 ///Fetch Tendencias///
 const apiKey = "pMHHnxxFoIamHkWffvDdx4NAtAklnYfM";
 async function buscarTendencias() {
-  var urlTendencias = 'http://api.giphy.com/v1/gifs/trending?api_key=';
+  var urlTendencias = 'https://api.giphy.com/v1/gifs/trending?api_key=';
   const respuesta = await fetch(urlTendencias + apiKey);
   const datos = await respuesta.json();
   const datosArray = datos.data;
@@ -69,7 +69,7 @@ console.log(buscarTendencias());
 ///Fin Fetch Tendencias///
 ///Fetch Random///
 let param = '&api_key=';
-let urlRandom = 'http://api.giphy.com/v1/gifs/random?';
+let urlRandom = 'https://api.giphy.com/v1/gifs/random?';
 let divRadom = document.getElementById('randomGif');
 async function getRandom() {
   const load = urlRandom;
